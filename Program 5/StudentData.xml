@@ -1,0 +1,34 @@
+<!--
+    Design an XML document to store information about a student in an engineering college affiliated to VTU.
+    The information must include USN, Name, and Name of the College, Branch, Year of Joining, and email id.
+    Make up sample data for 3 students. Create a CSS style sheet and use it to display the document.
+-->
+<?xml-stylesheet type="text/css" href="StudentData.css"?>
+<all>
+  <student>
+    <usn>1MV17CS001</usn>
+    <name>John</name>
+    <college>Sir MVIT</college>
+    <branch>CSE</branch>
+    <YOJ>2017</YOJ>
+    <email>john@gmail.com</email>
+  </student>
+
+  <student>
+    <usn>1MV17MES002</usn>
+    <name>Jessi</name>
+    <college>Sir MVIT</college>
+    <branch>ME</branch>
+    <YOJ>2017</YOJ>
+    <email>jessi@yahoo.com</email>
+  </student>
+
+  <student>
+    <usn>1MV17EE003</usn>
+    <name>James</name>
+    <college>Sir MVIT</college>
+    <branch>EEE</branch>
+    <YOJ>2017</YOJ>
+    <email>james@outlook.com</email>
+  </student>
+</all>
